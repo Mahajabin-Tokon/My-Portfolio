@@ -37,7 +37,7 @@ export default function Hero() {
                 and dynamic user experiences.
               </p>
             </div>
-            <div className="col-span-4 flex flex-col justify-center items-center gap-5">
+            <div className="col-span-4 flex flex-col justify-center lg:items-end gap-5">
               <Button
                 icon={<AiOutlineCloudDownload size={22} />}
                 text={"Resume"}
