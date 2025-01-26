@@ -37,9 +37,9 @@ export default function Skills() {
             <div className="col-span-4">Comfortable</div>
             <div className="col-span-4 lg:col-span-8">
               <div className="flex flex-wrap gap-5 grow">
-                <Skill icon={<FaNode />} text="Node"></Skill>
-                <Skill icon={<SiExpress />} text="Express"></Skill>
-                <Skill icon={<SiMongodb />} text="MongoDB"></Skill>
+                <Skill icon={<FaNode  size={22} />} text="Node"></Skill>
+                <Skill icon={<SiExpress  size={22} />} text="Express"></Skill>
+                <Skill icon={<SiMongodb  size={22} />} text="MongoDB"></Skill>
               </div>
             </div>
           </div>
@@ -48,9 +48,9 @@ export default function Skills() {
             <div className="col-span-4">Familiar</div>
             <div className="col-span-4 lg:col-span-8">
               <div className="flex flex-wrap gap-5 grow">
-                <Skill icon={<SiMysql />} text="MySQL"></Skill>
-                <Skill icon={<FaPhp />} text="PHP"></Skill>
-                <Skill icon={<SiJquery />} text="jQuery"></Skill>
+                <Skill icon={<SiMysql  size={22} />} text="MySQL"></Skill>
+                <Skill icon={<FaPhp  size={22} />} text="PHP"></Skill>
+                <Skill icon={<SiJquery  size={22} />} text="jQuery"></Skill>
               </div>
             </div>
           </div>

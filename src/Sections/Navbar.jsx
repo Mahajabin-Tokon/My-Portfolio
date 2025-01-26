@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       {/*<!-- Component: Basic Navbar --> */}
       <header className="fixed top-0 left-0 right-0 z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
-        <div className="relative mx-auto max-w-full px-6 lg:max-w-screen-lg ">
+        <div className="relative mx-auto max-w-full px-6 lg:pl-8 lg:pr-1 lg:max-w-screen-lg">
           <nav
             aria-label="main navigation"
             className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
