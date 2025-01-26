@@ -8,16 +8,16 @@ export default function Hero() {
   return (
     <>
       {/*<!-- Component: Three columns even layout --> */}
-      <section>
+      <section className="mt-32">
         <div className="container px-6 md:px-0 m-auto">
-          <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
+          <div className="grid grid-cols-4 gap-6 lg:grid-cols-12">
             {/* My Photo */}
-            <div className="col-span-4">
-              <figure>
+            <div className="col-span-4 flex justify-center items-center">
+              <figure className="">
                 <img
                   src={myPhoto}
                   alt="My Photo"
-                  className="rounded-full w-96 h-96 object-cover"
+                  className="rounded-full w-80 h-80 border-2 border-neutral-400 object-cover"
                 />
               </figure>
             </div>
@@ -37,7 +37,8 @@ export default function Hero() {
                 and dynamic user experiences.
               </p>
             </div>
-            <div className="col-span-4 flex flex-col justify-center lg:items-end gap-5">
+            {/* Buttons */}
+            <div className="col-span-4 flex flex-col justify-center lg:items-end gap-5 lg:pr-10">
               <Button
                 icon={<AiOutlineCloudDownload size={22} />}
                 text={"Resume"}
